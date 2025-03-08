@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.weatherapp.AdminController">
+   <children>
+      <!-- Eticheta care introduce mesajul de bun venit -->
+      <Label layoutX="130.0" layoutY="46.0" text="Hello. You are an admin. Put the JSON format below in the text box" />
+
+      <!-- TextArea pentru a introduce JSON-ul -->
+      <TextArea fx:id="jsonTextArea" layoutX="52.0" layoutY="100.0" prefHeight="200.0" prefWidth="507.0" />
+
+      <!-- Butonul "Send to Server" -->
+      <Button layoutX="253.0" layoutY="336.0" mnemonicParsing="false" text="Send to Server" fx:id="sendButton" onAction="#handleSendButtonAction"/>
+
+      <!-- Eticheta pentru a afișa răspunsul de la server -->
+      <Label fx:id="responseLabel" layoutX="52.0" layoutY="320.0" text="" />
+   </children>
+</AnchorPane>

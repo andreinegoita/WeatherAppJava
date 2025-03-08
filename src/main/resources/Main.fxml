@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.weatherapp.MainController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="198.0" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <AnchorPane prefHeight="256.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="403.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../473ef810fc400109b613becdcbec407c.jpg" />
+               </image>
+            </ImageView>
+
+            <Button fx:id="loginButton" layoutX="341.0" layoutY="120.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="135.0" text="Login" onAction="#handleLogin"/>
+            <Button fx:id="registerButton" layoutX="342.0" layoutY="164.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="135.0" text="Register" onAction="#handleRegister"/>
+            <Button fx:id="cancelButton" layoutX="342.0" layoutY="297.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="135.0" text="Cancel" onAction="#handleCancel"/>
+            <Text layoutX="341.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to CITY WEATHER" wrappingWidth="232.5367431640625" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

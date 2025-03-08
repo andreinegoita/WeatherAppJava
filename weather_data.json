@@ -1,0 +1,87 @@
+[
+  {
+    "location": "Berlin",
+    "currentWeather": "Partly Cloudy",
+    "temperature": 13.5,
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "forecast": {
+      "Tomorrow": {
+        "weather": "Sunny",
+        "temperature": 14.5
+      },
+      "Day after tomorrow": {
+        "weather": "Cloudy",
+        "temperature": 12.0
+      }
+    }
+  },
+  {
+    "location": "Bangkok",
+    "currentWeather": "Rainy",
+    "temperature": 29.3,
+    "latitude": 13.7563,
+    "longitude": 100.5018,
+    "forecast": {
+      "Tomorrow": {
+        "weather": "Thunderstorms",
+        "temperature": 30.0
+      },
+      "Day after tomorrow": {
+        "weather": "Clear",
+        "temperature": 28.5
+      }
+    }
+  },
+  {
+    "location": "Paris",
+    "currentWeather": "Cloudy",
+    "temperature": 18.0,
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "forecast": {
+      "Tomorrow": {
+        "weather": "Rainy",
+        "temperature": 17.0
+      },
+      "Day after tomorrow": {
+        "weather": "Partly Cloudy",
+        "temperature": 19.5
+      }
+    }
+  },
+  {
+    "location": "Cape Town",
+    "currentWeather": "Windy",
+    "temperature": 20.5,
+    "latitude": -33.9249,
+    "longitude": 18.4241,
+    "forecast": {
+      "Tomorrow": {
+        "weather": "Clear",
+        "temperature": 22.0
+      },
+      "Day after tomorrow": {
+        "weather": "Cloudy",
+        "temperature": 19.0
+      }
+    }
+  },
+  {
+    "location": "Buenos Aires",
+    "currentWeather": "Sunny",
+    "temperature": 25.6,
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "forecast": {
+      "Tomorrow": {
+        "weather": "Clear",
+        "temperature": 26.5
+      },
+      "Day after tomorrow": {
+        "weather": "Partly Cloudy",
+        "temperature": 24.0
+      }
+    }
+  }
+]
